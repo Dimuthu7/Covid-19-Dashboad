@@ -94,7 +94,7 @@ class Dashboard extends Component {
                             <div className="card text-center">
                                 <div className="card-header card-title">
                                     <h5>
-                                        PCR Testing Centers <i className="fas fa-plus-square" style={{color:"#eb5252"}}></i> and
+                                        PCR Testing Centers <i className="fas fa-plus-circle" style={{color:"#eb5252"}}></i> and
                                         Quarantine Centers <i className="fas fa-map-marker-alt" style={{color:"#006164"}}></i> in Sri Lanka
                                     </h5>
                                 </div>
