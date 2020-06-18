@@ -58,7 +58,8 @@ class Dashboard extends Component {
                             <div className="card" style={{backgroundColor:"#d5e8e8"}}>
                                 <div className="card-body" align="center" >
                                     <span id="MainText" >COVID-19! Live Situational Analysis Dashboard
-                                        <span style={{marginLeft:"2%"}}><i className="fas fa-virus"></i></span>
+                                        <span style={{marginLeft:"2%"}}>
+                                            <i className="fas fa-virus" style={{color:"red"}}></i></span>
                                     </span>
                                     <br />
                                 </div>
@@ -87,6 +88,24 @@ class Dashboard extends Component {
                                 </TabPanel>
                             </Tabs>
                         </div>
+                    </div>
+                    <div className="row" style={{marginTop:"4%"}}>
+                        <div className="col-md-12">
+                            <div className="card text-center">
+                                <div className="card-header card-title">
+                                    <h5>
+                                        PCR Testing Centers <i className="fas fa-plus-square" style={{color:"#eb5252"}}></i> and
+                                        Quarantine Centers <i className="fas fa-map-marker-alt" style={{color:"#006164"}}></i> in Sri Lanka
+                                    </h5>
+                                </div>
+                                <div className="card-body">
+                                    <iframe src="https://www.google.com/maps/d/embed?mid=1koDnKmWZ8pLdAUmi9izHvYp5RO_jaLX0" width="90%" height="500">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
 

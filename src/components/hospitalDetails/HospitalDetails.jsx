@@ -60,7 +60,7 @@ class HospitalDetails extends Component {
                             <div className="card"  style={{backgroundColor:"#d5e8e8"}}>
                                 <div className="card-body" align="center" >
                                     <span id="MainText">Hospital Patient Details
-                                        <span style={{marginLeft:"2%"}}><i className="fas fa-hospital-symbol"></i></span>
+                                        <span style={{marginLeft:"2%"}}><i className="fas fa-hospital-symbol" style={{color:"red"}}></i></span>
                                     </span>
                                     <br />
                                     <footer className="blockquote-footer text-dark text-center m-1">
