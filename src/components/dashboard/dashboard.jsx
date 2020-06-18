@@ -99,7 +99,7 @@ class Dashboard extends Component {
                                     </h5>
                                 </div>
                                 <div className="card-body">
-                                    <iframe src="https://www.google.com/maps/d/embed?mid=1koDnKmWZ8pLdAUmi9izHvYp5RO_jaLX0" width="90%" height="500">
+                                    <iframe src="https://www.google.com/maps/d/embed?mid=1koDnKmWZ8pLdAUmi9izHvYp5RO_jaLX0" title="Map" width="90%" height="500">
                                     </iframe>
                                 </div>
                             </div>
