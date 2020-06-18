@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Axios from 'axios';
-import Swal, {isLoading} from "sweetalert2";
+import Swal from "sweetalert2";
 import SiteLoading from "../siteloading/SiteLoading";
 
 class HospitalDetails extends Component {
@@ -10,7 +10,6 @@ class HospitalDetails extends Component {
             data: [],
             isLoading: false
         }
-
     }
 
     componentDidMount() {
@@ -100,22 +99,21 @@ class HospitalDetails extends Component {
                                                             {value.hospital.name_ta}
                                                         </h5>
                                                     </th>
-                                                    <td scope="col" style={{backgroundColor:"#f54e42"}} className="p-5">
+                                                    <td style={{backgroundColor:"#f54e42"}} className="p-5">
                                                         <h5 title="Sri Lankans on treatment">{value.treatment_local}</h5>
                                                     </td>
-                                                    <td scope="col" style={{backgroundColor:"#e88615"}} className="p-5">
+                                                    <td style={{backgroundColor:"#e88615"}} className="p-5">
                                                         <h5 title="Foreigners on treatment">{value.treatment_foreign}</h5>
                                                     </td>
-                                                    <td scope="col" style={{backgroundColor:"#3cf032"}} className="p-5">
+                                                    <td style={{backgroundColor:"#3cf032"}} className="p-5">
                                                         <h5 title="Treated Sri Lankans">{value.cumulative_local}</h5>
                                                     </td>
-                                                    <td scope="col" style={{backgroundColor:"#abd61c"}} className="p-5">
+                                                    <td style={{backgroundColor:"#abd61c"}} className="p-5">
                                                         <h5 title="Treated Foreign">{value.cumulative_foreign}</h5>
                                                     </td>
                                                 </tr>
                                             );
                                         })}
-
 
                                         </tbody>
                                     </table>

@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import icon from '../../images/sriLankaFlag.gif';
 import './dashboardStyle.css'
@@ -168,7 +167,6 @@ class SriLankaDetails extends Component {
                             </div>
 
                         </div>
-
 
                     </div>
                 </div>

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './dashboardStyle.css';
-import covidIcon from '../../images/covidIcon.gif';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import SriLankaDetails from "./sriLankaDetails";
@@ -90,7 +89,6 @@ class Dashboard extends Component {
                         </div>
                     </div>
                 </div>
-
 
             </div>
         );

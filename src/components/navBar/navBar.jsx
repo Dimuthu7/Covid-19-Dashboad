@@ -20,10 +20,10 @@ class NavBar extends Component {
 
                     </ul>
                     <li className="form-inline  ml-auto">
-                        <span className="mr-3"><a href="https://www.linkedin.com/in/dimuthu-abeysinghe/" target="_blank">Developed By</a></span>
+                        <span className="mr-3"><a href="https://www.linkedin.com/in/dimuthu-abeysinghe/" target="_blank" rel="noopener noreferrer">Developed By</a></span>
 						/* 
                         <span style={{color:"#919191"}}>|</span> 
-						<span className="ml-3"> <a href="https://github.com/Dimuthu7/Covid-19-dashboard" target="_blank"><h1>
+						<span className="ml-3"> <a href="https://github.com/Dimuthu7/Covid-19-dashboard" target="_blank" rel="noopener noreferrer"><h1>
 							<span className="fa fa-github"></span></h1></a>
 						</span>*/
                     </li>
